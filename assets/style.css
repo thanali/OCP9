@@ -117,7 +117,7 @@ h2 {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #beb45a;
+  background-color: #1c6474;
   border-radius: 0;
 }
 
@@ -127,7 +127,7 @@ h2 {
 
 .item-column {
   position: relative;
-  margin-bottom: 0 !important;
+  margin-bottom: 0;
   padding: 0;
 }
 .item-column::after {
