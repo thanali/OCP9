@@ -101,13 +101,10 @@ header .name {
   font-size: 14px;
 }
 
-h2 {
-  font-size: 1.75rem;
-}
-
 .title {
   text-align: center;
   padding-block: 2em;
+  font-size: 1.75rem;
 }
 
 .gallery .nav {
@@ -290,7 +287,7 @@ input[type="submit"] {
   #about-me p {
     width: 100%;
   }
-  h2 {
+  .title {
     font-size: calc(1.3rem + 0.6vw);
   }
 

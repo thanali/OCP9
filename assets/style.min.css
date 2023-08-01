@@ -114,12 +114,10 @@ header .name {
   width: 80%;
   font-size: 14px;
 }
-h2 {
-  font-size: 1.75rem;
-}
 .title {
   text-align: center;
   padding-block: 2em;
+  font-size: 1.75rem;
 }
 .gallery .nav {
   justify-content: center;
@@ -132,7 +130,7 @@ h2 {
 }
 .item-column {
   position: relative;
-  margin-bottom: 0 !important;
+  margin-bottom: 0;
   padding: 0;
 }
 .item-column::after {
@@ -254,7 +252,7 @@ input[type="submit"] {
   .about-me__introduction {
     width: 100%;
   }
-  h2 {
+  .title {
     font-size: calc(1.3rem + 0.6vw);
   }
   .quote__text {
