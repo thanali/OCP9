@@ -68,7 +68,9 @@ header .name {
   text-decoration: none;
 }
 .social-link img {
+  /* Défnition de la taille */
   width: 20px;
+  height: 20px;
 }
 #about {
   background-color: #f6d2b8;
@@ -83,8 +85,13 @@ header .name {
   margin: 0 20px;
   z-index: 0;
 }
+/* Ajout ratio d'image */
 .picture img {
   width: 100%;
+  aspect-ratio: auto 1 / 1;
+}
+.carousel-item img {
+  aspect-ratio: auto 80 / 37;
 }
 #about-me,
 .form-container {
@@ -117,6 +124,7 @@ header .name {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
+  /* changement de couleurpour le contraste */
   background-color: #1c6474;
   border-radius: 0;
 }
