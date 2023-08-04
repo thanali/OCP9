@@ -2,15 +2,9 @@
 .nav-pills .nav-link {
   color: #000;
 }
-.about-me__introduction strong,
-.quote,
+.about-me__introduction,
 .quote__text {
   font-style: italic;
-  font-family: Spectral;
-}
-.quote,
-.quote__author,
-.quote__text {
   font-family: Spectral;
 }
 .service,
@@ -101,18 +95,16 @@ header .name {
   margin-bottom: 60px;
   font-size: 30px;
 }
-.about-me__introduction {
-  width: 60%;
-  line-height: 1.2;
-  margin-bottom: 0.5rem;
-}
-.about-me__introduction strong {
-  font-weight: 800;
-  font-size: 1rem;
-}
 #about-me p {
   width: 80%;
   font-size: 14px;
+}
+.about-me__introduction {
+  line-height: 1.2;
+  margin-bottom: 0.5rem;
+  font-weight: 800;
+  font-size: 1rem;
+  width: 60%;
 }
 .title {
   text-align: center;
@@ -166,12 +158,17 @@ form textarea {
   margin: auto;
   padding-block: 3em;
 }
+.quote__text,
+.service__price p {
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
+}
 .quote__text {
   font-size: 2.5rem;
   font-weight: 300;
-  line-height: 1.2;
 }
 .quote__author {
+  font-family: Spectral;
   font-weight: 800;
   font-size: 22px;
 }
@@ -207,8 +204,6 @@ form textarea {
 .service__price p {
   font-weight: 500;
   font-size: 1.5rem;
-  margin-bottom: 0.5rem;
-  line-height: 1.2;
 }
 #contact {
   margin: auto;
@@ -218,6 +213,10 @@ form textarea {
   background-color: #beb45a;
   position: absolute;
   right: 0;
+}
+.form-title {
+  padding: 0;
+  text-align: left;
 }
 form {
   flex-direction: column;
